@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.bgimage {
+    background-image: url(../images/bg1.jpg);
+    background-size: 100% 110%;
+    height: 100vh;
+    width: 100%;
+}
+
+.menu {
+    height: 100px;
+    width: 100%;
+}
+
+.leftmenu {
+    width: 25%;
+    line-height: 80px;
+    float: left;
+}
+
+.leftmenu h4 {
+    padding-left: 70px;
+    font-weight: bold;
+    color: purple;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.rightmenu {
+    width: 75%;
+    height: 100%;
+    float: right;
+}
+
+.rightmenu ul li {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    font-size: 20px;
+    color: purple;
+    font-weight: bold;
+    line-height: 100px;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+
+.rightmenu ul li:hover {
+    color: orangered;
+}
+
+.text {
+    width: 100%;
+    margin-top: 140px;
+    text-transform: uppercase;
+    text-align: center;
+    color: darkred;
+}
+
+.text h4 {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.text h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif font-weight: bold;
+}
+
+.text h3 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#buttonone {
+    font-size: 12px;
+    background-color: white;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+}
+
+#buttontwo {
+    background-color: transparent;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 40px;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 25px;
+    border: 3px solid white;
+}
